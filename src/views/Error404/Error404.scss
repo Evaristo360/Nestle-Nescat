@@ -1,0 +1,16 @@
+.container-not-found {
+  position: fixed;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+
+  h1 {
+    font-weight: 700;
+  }
+
+  p {
+    margin: 12px 8px;
+  }
+}

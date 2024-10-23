@@ -1,0 +1,41 @@
+.flex-container {
+  display: flex;
+  padding-top: 71px;
+  padding-left: 0px;
+  background-color: #E1E1E133;
+  width: '1366';
+  height: 152px;
+  opacity: 1;
+
+}
+
+div.number-users {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-left: 81px;
+  text-align: left;
+  font: normal normal bold 25px/33px Roboto;
+  letter-spacing: 0px;
+  color: #002169;
+  opacity: 1;
+
+
+}
+
+
+div.search {
+  padding-top: 5px;
+  padding-left: 896px;
+}
+
+
+div.gallery {
+  padding-top: 20px;
+  padding-left: 53px;
+  width: 58px;
+  height: 40px;
+
+}
+
+

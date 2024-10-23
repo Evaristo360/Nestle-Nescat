@@ -1,0 +1,95 @@
+[
+  {
+    "name": "src",
+    "childs": [
+      {
+        "name": "assets",
+        "childs": [
+          { "name": "svg", "childs": [{ "name": "logo.svg" }] },
+          { "name": "img", "childs": [{ "name": "logo.png" }] },
+          { "name": "Images.js" },
+          { "name": "index.js" }
+        ]
+      },
+      {
+        "name": "components",
+        "childs": [
+          {
+            "name": "Example",
+            "childs": [
+              { "name": "Example.jsx" },
+              { "name": "Example.scss" },
+              { "name": "ExampleMessages.js" },
+              { "name": "ExampleStyles.js" },
+              { "name": "index.js" }
+            ]
+          },
+          {
+            "name": "Theme",
+            "childs": [
+              { "name": "hooks", "childs": [{ "name": "useTheme.js" }] },
+              { "name": "index.js" },
+              { "name": "Theme.jsx" },
+              { "name": "ThemeContext.jsx" },
+              { "name": "ThemeMessages.js" },
+              { "name": "ThemeProvider.jsx" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "hooks",
+        "childs": [
+          { "name": "useFetch.js" },
+          { "name": "usePrevious.js" },
+          { "name": "index.js" }
+        ]
+      },
+      {
+        "name": "layouts",
+        "childs": [{ "name": "index.js" }]
+      },
+      {
+        "name": "providers",
+        "childs": [
+          {
+            "name": "api",
+            "childs": [
+              {
+                "name": "mappers",
+                "childs": [{ "name": "example.js" }, { "name": "index.js" }]
+              },
+              {
+                "name": "requests",
+                "childs": [{ "name": "example.js" }, { "name": "index.js" }]
+              },
+              { "name": "index.js" },
+              { "name": "instance.js" }
+            ]
+          },
+          {
+            "name": "config",
+            "childs": [{ "name": "index.js" }, { "name": "provider.js" }]
+          },
+          {
+            "name": "theme",
+            "childs": [{ "name": "index.js" }, { "name": "provider.js" }]
+          }
+        ]
+      },
+      {
+        "name": "translations",
+        "childs": [{ "name": "en.json" }, { "name": "es-mx.json" }]
+      },
+      {
+        "name": "App.jsx"
+      },
+      {
+        "name": "index.js"
+      },
+      {
+        "name": "Root.jsx"
+      }
+    ]
+  }
+]
